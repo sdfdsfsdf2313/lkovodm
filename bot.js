@@ -12,9 +12,9 @@ const pool = new Pool({
 });
 
 // Создание бота
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {
+const bot = const bot = const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {
     polling: true,
-    baseApiUrl: 'https://rapid-leaf-4317-tg-proxy.hehhuh434.workers.dev'
+    baseApiUrl: process.env.TELEGRAM_API_PROXY_URL
 });
 
 // Инициализация обработчиков
