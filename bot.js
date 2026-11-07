@@ -12,7 +12,7 @@ const pool = new Pool({
 });
 
 // Создание бота
-const bot = const bot = const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {
+const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {
     polling: true,
     baseApiUrl: process.env.TELEGRAM_API_PROXY_URL
 });
